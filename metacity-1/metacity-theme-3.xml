@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 
-<metacity_theme>
+<metacity_theme version=">= 3.3">
 <info>
   	<name>Ambiance</name>
   	<author>Kenneth Wimer, James Schriver</author>
@@ -8,6 +8,8 @@
   	<date>Feb 14, 2010</date>
   	<description>Metacity theme</description>
 </info>
+
+<draw_ops name="blank"/>
 
 <!-- General window layout -->
 <frame_geometry name="frame_geometry_normal" title_scale="medium" rounded_top_left="true" rounded_top_right="true"  rounded_bottom_left="true" rounded_bottom_right="true">
@@ -395,6 +397,30 @@
 	<button function="close" state="normal" draw_ops="close_focused_normal"/>
 	<button function="close" state="prelight" draw_ops="close_focused_prelight"/>
 	<button function="close" state="pressed" draw_ops="close_focused_pressed"/>
+	<button function="left_single_background" state="normal" draw_ops="blank"/>
+	<button function="left_single_background" state="prelight" draw_ops="blank"/>
+	<button function="left_single_background" state="pressed" draw_ops="blank"/>
+	<button function="right_single_background" state="normal" draw_ops="blank"/>
+	<button function="right_single_background" state="prelight" draw_ops="blank"/>
+	<button function="right_single_background" state="pressed" draw_ops="blank"/>
+	<button function="shade" state="normal" draw_ops="blank"/>
+	<button function="shade" state="prelight" draw_ops="blank"/>
+	<button function="shade" state="pressed" draw_ops="blank"/>
+	<button function="unshade" state="normal" draw_ops="blank"/>
+	<button function="unshade" state="prelight" draw_ops="blank"/>
+	<button function="unshade" state="pressed" draw_ops="blank"/>
+	<button function="above" state="normal" draw_ops="blank"/>
+	<button function="above" state="prelight" draw_ops="blank"/>
+	<button function="above" state="pressed" draw_ops="blank"/>
+	<button function="unabove" state="normal" draw_ops="blank"/>
+	<button function="unabove" state="prelight" draw_ops="blank"/>
+	<button function="unabove" state="pressed" draw_ops="blank"/>
+	<button function="stick" state="normal" draw_ops="blank"/>
+	<button function="stick" state="prelight" draw_ops="blank"/>
+	<button function="stick" state="pressed" draw_ops="blank"/>
+	<button function="unstick" state="normal" draw_ops="blank"/>
+	<button function="unstick" state="prelight" draw_ops="blank"/>
+	<button function="unstick" state="pressed" draw_ops="blank"/>
 </frame_style>
 
 <frame_style name="normal_unfocused" geometry="frame_geometry_normal">
@@ -433,6 +459,30 @@
 	<button function="close" state="normal" draw_ops="close_unfocused_normal"/>
 	<button function="close" state="prelight" draw_ops="close_unfocused_prelight"/>
 	<button function="close" state="pressed" draw_ops="close_unfocused_pressed"/>
+	<button function="left_single_background" state="normal" draw_ops="blank"/>
+	<button function="left_single_background" state="prelight" draw_ops="blank"/>
+	<button function="left_single_background" state="pressed" draw_ops="blank"/>
+	<button function="right_single_background" state="normal" draw_ops="blank"/>
+	<button function="right_single_background" state="prelight" draw_ops="blank"/>
+	<button function="right_single_background" state="pressed" draw_ops="blank"/>
+	<button function="shade" state="normal" draw_ops="blank"/>
+	<button function="shade" state="prelight" draw_ops="blank"/>
+	<button function="shade" state="pressed" draw_ops="blank"/>
+	<button function="unshade" state="normal" draw_ops="blank"/>
+	<button function="unshade" state="prelight" draw_ops="blank"/>
+	<button function="unshade" state="pressed" draw_ops="blank"/>
+	<button function="above" state="normal" draw_ops="blank"/>
+	<button function="above" state="prelight" draw_ops="blank"/>
+	<button function="above" state="pressed" draw_ops="blank"/>
+	<button function="unabove" state="normal" draw_ops="blank"/>
+	<button function="unabove" state="prelight" draw_ops="blank"/>
+	<button function="unabove" state="pressed" draw_ops="blank"/>
+	<button function="stick" state="normal" draw_ops="blank"/>
+	<button function="stick" state="prelight" draw_ops="blank"/>
+	<button function="stick" state="pressed" draw_ops="blank"/>
+	<button function="unstick" state="normal" draw_ops="blank"/>
+	<button function="unstick" state="prelight" draw_ops="blank"/>
+	<button function="unstick" state="pressed" draw_ops="blank"/>
 </frame_style>
 
 <frame_style name="maximized_focused" geometry="geometry_maximized" parent="normal_focused">
